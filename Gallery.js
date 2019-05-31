@@ -129,234 +129,279 @@ class Gallery extends React.Component {
 
 
   render(){
-    return(
-      <div class="bg0 m-t-23 p-b-140">
-        <div class="container">
-          <div class="flex-w flex-sb-m p-b-52">
-            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
-            {this.state.click1 ?
-              <button onClick={this.handleClick1.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" style={{borderColor:this.state.color}} data-filter="*">
-                Agendas
-              </button> : <button onClick={this.handleClick1.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter="*">
-                Agendas
-              </button>}
-              {this.state.click2 ?
-              <button onClick={this.handleClick2.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" style={{borderColor:this.state.color}} data-filter=".women">
-                Bandeiras e Publicidade
-              </button> : <button onClick={this.handleClick2.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter=".women">
-                Bandeiras
-              </button>}
-
-              {this.state.click3 ?
-              <button onClick={this.handleClick3.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5 " style={{borderColor:this.state.color}} data-filter=".men">
-                Pasta
-              </button>: <button onClick={this.handleClick3.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter=".men">
-                Pasta
-              </button>}
-
-              {this.state.click4 ?
-              <button onClick={this.handleClick4.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" style={{borderColor:this.state.color}} data-filter=".bag">
-                Canetas
-              </button> : <button onClick={this.handleClick4.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter=".bag">
-                Canetas
-              </button>}
-
-              {this.state.click5 ?
-              <button onClick={this.handleClick5.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" style={{borderColor:this.state.color}} data-filter=".shoes">
-                Casa E Lazer
-              </button> : <button onClick={this.handleClick5.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter=".shoes">
-                Casa E Lazer
-              </button>}
-
-              {this.state.click6 ?
-              <button onClick={this.handleClick6.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" style={{borderColor:this.state.color}} data-filter=".watches">
-                Chaveiros
-              </button> : <button onClick={this.handleClick6.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter=".watches">
-                Chaveiros
-              </button>}
-
-              {this.state.click7 ?
-              <button onClick={this.handleClick7.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" style={{borderColor:this.state.color}} data-filter=".watches">
-                Bebedouros
-              </button> : <button onClick={this.handleClick7.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter=".watches">
-                Bebedouros
-              </button>}
-
-              {this.state.click8 ?
-              <button onClick={this.handleClick8.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" style={{borderColor:this.state.color}} data-filter=".watches">
-                Lancheiras
-              </button>:<button onClick={this.handleClick8.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter=".watches">
-                Lancheiras
-              </button>}
-
-              {this.state.click9 ?
-              <button onClick={this.handleClick9.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" style={{borderColor:this.state.color}} data-filter=".watches">
-                Eletrônicos
-              </button>: <button onClick={this.handleClick9.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter=".watches">
-                Eletrônicos
-              </button>}
-
-              {this.state.click10 ?
-              <button onClick={this.handleClick10.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" style={{borderColor:this.state.color}} data-filter=".watches">
-                Sacolas
-              </button>:<button onClick={this.handleClick10.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter=".watches">
-                Sacolas
-              </button>}
-
-              {this.state.click11 ?
-              <button onClick={this.handleClick11.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" style={{borderColor:this.state.color}} data-filter=".watches">
-                Umbrellas
-              </button>: <button onClick={this.handleClick11.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter=".watches">
-                Umbrellas
-              </button>}
-
-              {this.state.click12 ?
-              <button onClick={this.handleClick12.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" style={{borderColor:this.state.color}} data-filter=".watches">
-                Usb
-              </button>:<button onClick={this.handleClick12.bind(this)} class="stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5" data-filter=".watches">
-                Usb
-              </button>}
-
-            </div>
-          </div>
-
-              {this.state.click1 ? (<div class="row isotope-grid">
-                {this.state.agendas.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : this.state.click2 ? (<div class="row isotope-grid">
-                {this.state.bandeiras.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : this.state.click3 ? (<div class="row isotope-grid">
-                {this.state.pastas.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : this.state.click4 ? (<div class="row isotope-grid">
-                {this.state.canetas.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : this.state.click5 ? (<div class="row isotope-grid">
-                {this.state.casaLazer.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : this.state.click6 ? (<div class="row isotope-grid">
-                {this.state.chaveiros.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : this.state.click7 ? (<div class="row isotope-grid">
-                {this.state.bebdouros.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : this.state.click8 ? (<div class="row isotope-grid">
-                {this.state.lancheiras.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : this.state.click9 ? (<div class="row isotope-grid">
-                {this.state.mouses.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : this.state.click10 ? (<div class="row isotope-grid">
-                {this.state.sacolas.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : this.state.click11 ? (<div class="row isotope-grid">
-                {this.state.umbrellas.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : this.state.click12 ? (<div class="row isotope-grid">
-                {this.state.usb.map(item => (
-                <div key={item.ip} class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                  <div class="block2">
-                    <div class="block2-pic hov-img0">
-                      <img src={item.image} />
-                    </div>
-                  </div>
-                </div>
-              ))}
-              </div>)
-              : (<h2>Nothing to Display</h2>)}
-
-        </div>
-      </div>
-    );
+    return React.createElement("div", {
+    class: "bg0 m-t-23 p-b-140"
+  }, React.createElement("div", {
+    class: "container"
+  }, React.createElement("div", {
+    class: "flex-w flex-sb-m p-b-52"
+  }, React.createElement("div", {
+    class: "flex-w flex-l-m filter-tope-group m-tb-10"
+  }, this.state.click1 ? React.createElement("button", {
+    onClick: this.handleClick1.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": "*"
+  }, "Agendas") : React.createElement("button", {
+    onClick: this.handleClick1.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": "*"
+  }, "Agendas"), this.state.click2 ? React.createElement("button", {
+    onClick: this.handleClick2.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": ".women"
+  }, "Bandeiras e Publicidade") : React.createElement("button", {
+    onClick: this.handleClick2.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": ".women"
+  }, "Bandeiras"), this.state.click3 ? React.createElement("button", {
+    onClick: this.handleClick3.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5 ",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": ".men"
+  }, "Pasta") : React.createElement("button", {
+    onClick: this.handleClick3.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": ".men"
+  }, "Pasta"), this.state.click4 ? React.createElement("button", {
+    onClick: this.handleClick4.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": ".bag"
+  }, "Canetas") : React.createElement("button", {
+    onClick: this.handleClick4.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": ".bag"
+  }, "Canetas"), this.state.click5 ? React.createElement("button", {
+    onClick: this.handleClick5.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": ".shoes"
+  }, "Casa E Lazer") : React.createElement("button", {
+    onClick: this.handleClick5.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": ".shoes"
+  }, "Casa E Lazer"), this.state.click6 ? React.createElement("button", {
+    onClick: this.handleClick6.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": ".watches"
+  }, "Chaveiros") : React.createElement("button", {
+    onClick: this.handleClick6.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": ".watches"
+  }, "Chaveiros"), this.state.click7 ? React.createElement("button", {
+    onClick: this.handleClick7.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": ".watches"
+  }, "Bebedouros") : React.createElement("button", {
+    onClick: this.handleClick7.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": ".watches"
+  }, "Bebedouros"), this.state.click8 ? React.createElement("button", {
+    onClick: this.handleClick8.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": ".watches"
+  }, "Lancheiras") : React.createElement("button", {
+    onClick: this.handleClick8.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": ".watches"
+  }, "Lancheiras"), this.state.click9 ? React.createElement("button", {
+    onClick: this.handleClick9.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": ".watches"
+  }, "Eletr\xF4nicos") : React.createElement("button", {
+    onClick: this.handleClick9.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": ".watches"
+  }, "Eletr\xF4nicos"), this.state.click10 ? React.createElement("button", {
+    onClick: this.handleClick10.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": ".watches"
+  }, "Sacolas") : React.createElement("button", {
+    onClick: this.handleClick10.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": ".watches"
+  }, "Sacolas"), this.state.click11 ? React.createElement("button", {
+    onClick: this.handleClick11.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": ".watches"
+  }, "Umbrellas") : React.createElement("button", {
+    onClick: this.handleClick11.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": ".watches"
+  }, "Umbrellas"), this.state.click12 ? React.createElement("button", {
+    onClick: this.handleClick12.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    style: {
+      borderColor: this.state.color
+    },
+    "data-filter": ".watches"
+  }, "Usb") : React.createElement("button", {
+    onClick: this.handleClick12.bind(this),
+    class: "stext-106 cl6 hov1 bor3 trans-04 m-r-20 m-tb-5",
+    "data-filter": ".watches"
+  }, "Usb"))), this.state.click1 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.agendas.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : this.state.click2 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.bandeiras.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : this.state.click3 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.pastas.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : this.state.click4 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.canetas.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : this.state.click5 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.casaLazer.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : this.state.click6 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.chaveiros.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : this.state.click7 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.bebdouros.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : this.state.click8 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.lancheiras.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : this.state.click9 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.mouses.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : this.state.click10 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.sacolas.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : this.state.click11 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.umbrellas.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : this.state.click12 ? React.createElement("div", {
+    class: "row isotope-grid"
+  }, this.state.usb.map(item => React.createElement("div", {
+    key: item.ip,
+    class: "col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women"
+  }, React.createElement("div", {
+    class: "block2"
+  }, React.createElement("div", {
+    class: "block2-pic hov-img0"
+  }, React.createElement("img", {
+    src: item.image
+  })))))) : React.createElement("h2", null, "Nothing to Display")));
   }
 
 }
