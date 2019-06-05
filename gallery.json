@@ -266,5 +266,39 @@
           "ip": "16",
           "image": "images/lancheiras/16.jpg"
           }
-        ]
+        ],
+        "trofeus": [
+            {
+              "ip": "1",
+              "image": "images/trofeus/1.jpg"
+            },
+            {
+              "ip": "2",
+              "image": "images/trofeus/2.jpg"
+            },
+            {
+            "ip": "3",
+            "image": "images/trofeus/3.jpg"
+            },
+            {
+            "ip": "4",
+            "image": "images/trofeus/4.jpg"
+            },
+            {
+            "ip": "5",
+            "image": "images/trofeus/5.png"
+            },
+            {
+            "ip": "6",
+            "image": "images/trofeus/6.jpg"
+            },
+            {
+              "ip": "7",
+              "image": "images/trofeus/7.jpg"
+            },
+            {
+              "ip": "8",
+              "image": "images/trofeus/8.jpg"
+            }
+          ]
 }
