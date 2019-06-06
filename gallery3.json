@@ -1,0 +1,302 @@
+{
+    "desporto": [
+        {
+          "ip": "1",
+          "image": "images/roupas/desporto/1.png"
+        },
+        {
+          "ip": "2",
+          "image": "images/roupas/desporto/2.png"
+        },
+        {
+        "ip": "3",
+        "image": "images/roupas/desporto/3.png"
+        },
+        {
+        "ip": "4",
+        "image": "images/roupas/desporto/4.png"
+        },
+        {
+        "ip": "5",
+        "image": "images/roupas/desporto/5.jpg"
+        },
+        {
+        "ip": "6",
+        "image": "images/roupas/desporto/6.jpg"
+        },
+        {
+          "ip": "7",
+          "image": "images/roupas/desporto/7.jpg"
+        },
+        {
+          "ip": "8",
+          "image": "images/roupas/desporto/8.jpg"
+        },
+        {
+        "ip": "9",
+        "image": "images/roupas/desporto/9.jpg"
+        },
+        {
+        "ip": "10",
+        "image": "images/roupas/desporto/10.jpg"
+        },
+        {
+          "ip": "11",
+          "image": "images/roupas/desporto/11.jpg"
+        },
+        {
+          "ip": "12",
+          "image": "images/roupas/desporto/12.jpg"
+        }
+    ],
+    "bones": [
+        {
+          "ip": "1",
+          "image": "images/roupas/bones/1.png"
+        },
+        {
+          "ip": "2",
+          "image": "images/roupas/bones/2.png"
+        },
+        {
+        "ip": "3",
+        "image": "images/roupas/bones/3.png"
+        },
+        {
+        "ip": "4",
+        "image": "images/roupas/bones/4.jpg"
+        },
+        {
+        "ip": "5",
+        "image": "images/roupas/bones/5.jpg"
+        },
+        {
+        "ip": "6",
+        "image": "images/roupas/bones/6.jpg"
+        },
+        {
+          "ip": "7",
+          "image": "images/roupas/bones/7.jpg"
+        },
+        {
+          "ip": "8",
+          "image": "images/roupas/bones/8.jpg"
+        },
+        {
+        "ip": "9",
+        "image": "images/roupas/bones/9.jpg"
+        },
+        {
+        "ip": "10",
+        "image": "images/roupas/bones/10.jpg"
+        },
+        {
+          "ip": "11",
+          "image": "images/roupas/bones/11.jpg"
+        },
+        {
+          "ip": "12",
+          "image": "images/roupas/bones/12.jpg"
+        }
+    ],
+    "camisas": [
+        {
+          "ip": "1",
+          "image": "images/roupas/camisas/1.png"
+        },
+        {
+          "ip": "2",
+          "image": "images/roupas/camisas/2.jpg"
+        },
+        {
+        "ip": "3",
+        "image": "images/roupas/camisas/3.jpg"
+        },
+        {
+        "ip": "4",
+        "image": "images/roupas/camisas/4.jpg"
+        },
+        {
+        "ip": "5",
+        "image": "images/roupas/camisas/5.jpg"
+        },
+        {
+        "ip": "6",
+        "image": "images/roupas/camisas/6.jpg"
+        },
+        {
+          "ip": "7",
+          "image": "images/roupas/camisas/7.jpg"
+        },
+        {
+          "ip": "8",
+          "image": "images/roupas/camisas/8.jpg"
+        },
+        {
+        "ip": "9",
+        "image": "images/roupas/camisas/9.jpg"
+        },
+        {
+        "ip": "10",
+        "image": "images/roupas/camisas/10.jpg"
+        },
+        {
+          "ip": "11",
+          "image": "images/roupas/camisas/11.jpg"
+        },
+        {
+          "ip": "12",
+          "image": "images/roupas/camisas/12.jpg"
+        }
+    ],
+    "camisetes": [
+        {
+          "ip": "1",
+          "image": "images/roupas/camisetes/1.png"
+        },
+        {
+          "ip": "2",
+          "image": "images/roupas/camisetes/2.png"
+        },
+        {
+        "ip": "3",
+        "image": "images/roupas/camisetes/3.jpg"
+        },
+        {
+        "ip": "4",
+        "image": "images/roupas/camisetes/4.jpg"
+        },
+        {
+        "ip": "5",
+        "image": "images/roupas/camisetes/5.jpg"
+        },
+        {
+        "ip": "6",
+        "image": "images/roupas/camisetes/6.jpg"
+        },
+        {
+          "ip": "7",
+          "image": "images/roupas/camisetes/7.jpg"
+        },
+        {
+          "ip": "8",
+          "image": "images/roupas/camisetes/8.jpg"
+        },
+        {
+        "ip": "9",
+        "image": "images/roupas/camisetes/9.jpg"
+        },
+        {
+        "ip": "10",
+        "image": "images/roupas/camisetes/10.jpg"
+        },
+        {
+          "ip": "11",
+          "image": "images/roupas/camisetes/11.jpg"
+        },
+        {
+          "ip": "12",
+          "image": "images/roupas/camisetes/12.jpg"
+        }
+    ],
+    "inverno": [
+    {
+      "ip": "1",
+      "image": "images/roupas/inverno/1.png"
+    },
+    {
+      "ip": "2",
+      "image": "images/roupas/inverno/2.jpg"
+    },
+    {
+    "ip": "3",
+    "image": "images/roupas/inverno/3.jpg"
+    },
+    {
+    "ip": "4",
+    "image": "images/roupas/inverno/4.jpg"
+    },
+    {
+    "ip": "5",
+    "image": "images/roupas/inverno/5.jpg"
+    },
+    {
+    "ip": "6",
+    "image": "images/roupas/inverno/6.jpg"
+    },
+    {
+      "ip": "7",
+      "image": "images/roupas/inverno/7.jpg"
+    },
+    {
+      "ip": "8",
+      "image": "images/roupas/inverno/12.jpg"
+    },
+    {
+    "ip": "9",
+    "image": "images/roupas/inverno/9.jpg"
+    },
+    {
+    "ip": "10",
+    "image": "images/roupas/inverno/10.jpg"
+    },
+    {
+      "ip": "11",
+      "image": "images/roupas/inverno/11.jpg"
+    },
+    {
+      "ip": "12",
+      "image": "images/roupas/inverno/8.jpg"
+    }
+      ],
+      "trabalho": [
+          {
+            "ip": "1",
+            "image": "images/roupas/trabalho/1.png"
+          },
+          {
+            "ip": "2",
+            "image": "images/roupas/trabalho/2.png"
+          },
+          {
+          "ip": "3",
+          "image": "images/roupas/trabalho/3.png"
+          },
+          {
+          "ip": "4",
+          "image": "images/roupas/trabalho/4.png"
+          },
+          {
+          "ip": "5",
+          "image": "images/roupas/trabalho/5.png"
+          },
+          {
+          "ip": "6",
+          "image": "images/roupas/trabalho/6.png"
+          },
+          {
+            "ip": "7",
+            "image": "images/roupas/trabalho/7.png"
+          },
+          {
+            "ip": "8",
+            "image": "images/roupas/trabalho/8.png"
+          },
+          {
+          "ip": "9",
+          "image": "images/roupas/trabalho/9.png"
+          },
+          {
+          "ip": "10",
+          "image": "images/roupas/trabalho/10.png"
+          },
+          {
+          "ip": "11",
+          "image": "images/roupas/trabalho//11.png"
+          },
+          {
+          "ip": "12",
+          "image": "images/roupas/trabalho/12.png"
+          }
+        ]
+}
